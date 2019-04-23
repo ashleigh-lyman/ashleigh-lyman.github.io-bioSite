@@ -1,0 +1,144 @@
+body{
+	background-color: #7f9ba1;
+	font-size: 17px;
+	margin: 0px;
+	
+}
+
+header{
+	background-image: url(images/momcoffee1.jpg);
+	background-repeat: no-repeat;
+	white-space: nowrap;
+	text-indent: 100%;
+	overflow: hidden;
+	background-position: center;
+	height: 22em;
+	
+}
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	background-color: #f6f1e9;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 15px 15px 15px #1e1e1e;
+	padding-bottom: 30px;
+}
+
+p{
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 1.5em;
+}
+.imageright{
+	float: right;
+	margin-left: 20px;
+	margin-right: 70px;
+	margin-bottom: 20px;
+	padding-right: 80px;
+	padding-left: 15px;
+	margin-top: 10px;
+	padding-top: 10px;
+	clear: right;
+	
+}
+
+.imageleft{
+	float: left;
+	margin-left: 50px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding-right: 15px;
+	padding-left: 20px;
+	margin-top: 20px;
+	padding-top: 20px;
+	clear: left;
+}
+
+
+.definition{
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+
+.mother{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.noun{
+	font-size: 18px;
+	font-style: italic;
+	
+}
+
+#underdef{
+	
+}
+
+#firstparagraph{
+	padding-top: 20px;
+	clear: left;
+}
+
+#secondparagraph{
+	padding-top: 10px;
+	clear: right;
+}
+
+#thirdparagraph{
+	padding-top: 10px;
+	clear: both;
+}
+
+#fourthparagraph{
+	padding-top: 30px;
+	clear: left;
+}
+
+#fifthparagraph{
+	clear: right;
+	padding-top: 20px;
+	
+}
+
+#sixthparagraph{
+	clear: both;
+	padding-top: 10px;
+}
+
+#italic{
+	font-style: italic;
+}
+
+#bold{
+	font-weight: bold;
+}
+
+footer{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f6f1e9;
+	box-shadow: 15px 15px 15px #1e1e1e;
+	
+}
+
+footer p{
+	padding-top: 30px;
+	padding-bottom: 10px;
+
+}
+
+footer img{
+	float: left;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 20px;
+	
+}
+
