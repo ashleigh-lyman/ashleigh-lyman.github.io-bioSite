@@ -76,8 +76,8 @@ p{
 	
 }
 
-#underdef{
-	
+.underdef{
+	font-style: italic;
 }
 
 #firstparagraph{
@@ -140,5 +140,17 @@ footer img{
 	padding-left: 30px;
 	padding-right: 20px;
 	
+}
+
+a:link{
+	color: #5b5c50;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:hover{
+	color: orange;
 }
 
