@@ -1,9 +1,17 @@
+/*Ashleigh Lyman*/
+/*Assignment 7.3*/
+/*CSS style page*/
+
+
+/*Background color is pale blue green*/
+
 body{
 	background-color: #7f9ba1;
 	font-size: 17px;
 	margin: 0px;
 	
 }
+
 
 header{
 	background-image: url(images/momcoffee1.jpg);
@@ -15,6 +23,8 @@ header{
 	height: 22em;
 	
 }
+
+/*Container color is a cream color*/
 
 #container{
 	margin-left: auto;
@@ -33,52 +43,75 @@ p{
 	padding-left: 40px;
 	padding-right: 40px;
 	line-height: 1.5em;
+	font-family: 'Raleway', sans-serif;
 }
+
+/*Image right class is for images located on the right side of the page*/
+
 .imageright{
 	float: right;
-	margin-left: 20px;
-	margin-right: 70px;
+	margin-left: 30px;
+	margin-right: 80px;
 	margin-bottom: 20px;
-	padding-right: 80px;
-	padding-left: 15px;
 	margin-top: 10px;
-	padding-top: 10px;
+	padding: 5px;
+	border: 4px inset #ff7f50;
 	clear: right;
+	border-radius: 1em;
 	
 }
+
+/*Image left is for images on the left side of the page*/
 
 .imageleft{
 	float: left;
 	margin-left: 50px;
 	margin-right: 20px;
 	margin-bottom: 20px;
-	padding-right: 15px;
-	padding-left: 20px;
 	margin-top: 20px;
-	padding-top: 20px;
+	padding: 5px;
+	border: 4px inset #ff7f50;
 	clear: left;
+	border-radius: 1em;
 }
 
+/*Definition class is for the text in the definition*/
 
 .definition{
 	padding-top: 25px;
 	padding-bottom: 5px;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
 }
 
+/*Mother class is the word mother being defined, bolding it to make it stand out more*/
+
 .mother{
-	font-size: 20px;
+	font-size: 24px;
+	font-family: 'Permanent Marker', cursive;
 	font-weight: bold;
 }
 
+/*Noun class is classifying the word mother as a noun, putting it in italics to make it stand out*/
+
 .noun{
-	font-size: 18px;
+	font-size: 20px;
 	font-style: italic;
 	
 }
 
+/*Underdef class is simply the text under the definition section. It's separated to give space between the two*/
+
 .underdef{
-	font-style: italic;
+	
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 26px;
+	color: #ff7f50;
+	
 }
+
+/*These next id's are for the text next to and around the images. Customizing each one for the right amount of space around*/
 
 #firstparagraph{
 	padding-top: 20px;
@@ -111,9 +144,13 @@ p{
 	padding-top: 10px;
 }
 
+/*Italic id is for the degree titles in the footer*/
+
 #italic{
 	font-style: italic;
 }
+
+/*Bold id is for the name in the footer*/
 
 #bold{
 	font-weight: bold;
@@ -142,6 +179,8 @@ footer img{
 	
 }
 
+/*This link color is a greenish color*/
+
 a:link{
 	color: #5b5c50;
 }
@@ -151,6 +190,6 @@ a:visited{
 }
 
 a:hover{
-	color: orange;
+	color: #ff7f50;
 }
 
