@@ -5,6 +5,22 @@
 
 /*Background color is pale blue green*/
 
+
+			
+@media only screen and (max-width: 1024px) {
+	body { margin: 0; }
+	#wrapper { width: auto; }
+	main { margin-left: 0; }
+	h1, h2 { font-size: 120%; }
+	p { font-size: 90%; }		
+}
+			
+@media only screen and (max-width: 768px) {
+	h1, h2 { font-size: 100%; }
+	p { font-size: 100%; }		
+}	 
+
+
 body{
 	background-color: #7f9ba1;
 	font-size: 17px;
@@ -43,7 +59,7 @@ p{
 	padding-left: 40px;
 	padding-right: 40px;
 	line-height: 1.5em;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Merriweather', serif;
 }
 
 /*Image right class is for images located on the right side of the page*/
@@ -81,14 +97,14 @@ p{
 	padding-top: 25px;
 	padding-bottom: 5px;
 	font-size: 17px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Merriweather', serif;
 }
 
 /*Mother class is the word mother being defined, bolding it to make it stand out more*/
 
 .mother{
 	font-size: 24px;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Special Elite', cursive;
 	font-weight: bold;
 }
 
@@ -104,7 +120,7 @@ p{
 
 .underdef{
 	
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
 	font-size: 26px;
 	color: #ff7f50;
